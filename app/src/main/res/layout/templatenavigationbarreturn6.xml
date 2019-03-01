@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@mipmap/barbutton"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/xiche_fanhui"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/xiche_imgfanhui"
+            android:layout_width="10dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/returns"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/zi16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/xiche_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/touzi_quxiao"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:gravity="right|center_vertical">
+        <TextView
+            android:id="@+id/xiche_quxiao_title22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="删除"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/xiche_xiaoxi22"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/bianji2"/>
+
+    </LinearLayout>
+</LinearLayout>

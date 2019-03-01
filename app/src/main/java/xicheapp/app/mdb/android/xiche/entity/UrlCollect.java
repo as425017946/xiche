@@ -1,0 +1,1 @@
+package xicheapp.app.mdb.android.xiche.entity;/** * Created by Administrator on 2016/10/12 0012. */public class UrlCollect {    public static final String HOST = "http://mobile.supai.com/";    //Log是否打印    public static final boolean isLog = true;    //逾期//    public static final String YU_QI = HOST + "PaymentOperationAction.action?confirm4yanqi";}

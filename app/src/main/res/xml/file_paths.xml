@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <external-path
+            name="files_root"
+            path="Android/data/xicheapp.app.mdb.android.xiche/" />
+        <external-path
+            name="external_storage_root"
+            path="." />
+    </paths>
+</resources>

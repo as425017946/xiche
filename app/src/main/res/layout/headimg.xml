@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="25dp"
+       android:textColor="@color/black"
+       android:text="图片来源"
+       android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="图库"
+        android:id="@+id/headimg_tuku"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="拍照"
+        android:id="@+id/headimg_paizhao"/>
+    <TextView
+        android:id="@+id/headimg_quxiao"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:gravity="right"
+        android:text="取消"
+        android:textSize="14sp"
+        android:textColor="@color/xuanzhong"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fuwu.MessagesActivity">
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/templatenavigationbarreturn5"></include>
+    <xicheapp.app.mdb.android.xiche.view.XListView
+        android:id="@+id/messages_xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></xicheapp.app.mdb.android.xiche.view.XListView>
+</LinearLayout>
